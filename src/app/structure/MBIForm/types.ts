@@ -1,3 +1,5 @@
+import { MbiLevel } from "../PostMbiForm/types";
+
 export type BurnoutSpectrums = "EE" | "DP" | "RP";
 
 export type RiskLabels =
@@ -10,6 +12,6 @@ export type RiskLabels =
 export type Results = {
   [key in BurnoutSpectrums]: {
     score: number;
-    level: RiskLabels;
+    level: MbiLevel;
   };
 };

@@ -1,0 +1,136 @@
+[
+  {
+    "condicion": { "EE": "alto", "DP": "alto", "RP": "bajo" },
+    "diagnostico": "Burnout severo",
+    "explicacion": "La combinación de agotamiento emocional alto, despersonalización elevada y baja realización personal corresponde al síndrome de burnout clínicamente significativo.",
+    "preguntas_post_mbi": [
+      "¿Con qué frecuencia te sientes emocionalmente exhausto incluso después de descansar?",
+      "¿Sientes que has perdido interés o conexión con las personas en tu entorno?",
+      "¿Has sentido que tu trabajo ya no tiene sentido o propósito para ti?",
+      "¿Tienes apoyo emocional o alguien con quien hablar sobre lo que sientes?"
+    ],
+    "intervencion": {
+      "emocional": "Practicar mindfulness guiado o respiración profunda 10-15 minutos diarios.",
+      "ambiente": "Solicitar reducción temporal de carga laboral o descansos programados.",
+      "social": "Buscar apoyo psicológico profesional o terapia breve.",
+      "personal": "Redefinir metas y reconectar con actividades gratificantes fuera del trabajo."
+    }
+  },
+  {
+    "condicion": { "EE": "medio", "DP": "alto", "RP": "bajo" },
+    "diagnostico": "Burnout moderado",
+    "explicacion": "El agotamiento moderado junto con despersonalización elevada y baja realización indica riesgo importante de desgaste crónico.",
+    "preguntas_post_mbi": [
+      "¿Qué situaciones te están generando mayor frustración o desinterés?",
+      "¿Sientes que tu esfuerzo no está siendo valorado?",
+      "¿Qué tan difícil se te hace mantener empatía con los demás?",
+      "¿Qué te gustaría mejorar de tu situación actual?"
+    ],
+    "intervencion": {
+      "emocional": "Realizar respiración consciente o journaling emocional diario.",
+      "ambiente": "Evitar ambientes laborales altamente estresantes cuando sea posible.",
+      "social": "Hablar con un líder o colega de confianza sobre la carga emocional.",
+      "personal": "Establecer metas pequeñas y realistas para recuperar motivación."
+    }
+  },
+  {
+    "condicion": { "EE": "alto", "DP": "medio", "RP": "medio" },
+    "diagnostico": "Riesgo de Burnout",
+    "explicacion": "El agotamiento emocional alto, acompañado de distanciamiento y motivación moderada, indica riesgo significativo de progresión a Burnout.",
+    "preguntas_post_mbi": [
+      "¿Qué actividades te están generando más cansancio?",
+      "¿Tienes espacios de descanso durante el día?",
+      "¿Sientes que te estás distanciando de tus compañeros o familia?",
+      "¿Qué podrías cambiar para reducir tu carga mental?"
+    ],
+    "intervencion": {
+      "emocional": "Meditación breve o relajación muscular progresiva.",
+      "ambiente": "Tomar pausas activas cada 2 horas y mejorar hábitos de sueño.",
+      "social": "Buscar conversaciones de apoyo con compañeros o amigos.",
+      "personal": "Organizar tareas por prioridad para disminuir saturación."
+    }
+  },
+  {
+    "condicion": { "EE": "alto", "DP": "bajo", "RP": "medio" },
+    "diagnostico": "Fatiga emocional",
+    "explicacion": "El agotamiento elevado con baja despersonalización indica cansancio acumulado más que desconexión social.",
+    "preguntas_post_mbi": [
+      "¿Cuántas horas duermes aproximadamente?",
+      "¿Te cuesta mantener la concentración?",
+      "¿Has tenido cambios en tu energía diaria?",
+      "¿Qué actividades te ayudan a relajarte?"
+    ],
+    "intervencion": {
+      "emocional": "Ejercicios diarios de relajación y desconexión digital.",
+      "ambiente": "Optimizar horarios de descanso y reducir multitarea.",
+      "social": "Conversar con amigos o familia para liberar carga emocional.",
+      "personal": "Modificar expectativas o cargas internas para disminuir presión personal."
+    }
+  },
+  {
+    "condicion": { "EE": "medio", "DP": "medio", "RP": "medio" },
+    "diagnostico": "Estrés laboral leve",
+    "explicacion": "Hay señales equilibradas de estrés sin deterioro severo emocional o motivacional.",
+    "preguntas_post_mbi": [
+      "¿Qué situaciones te han causado estrés recientemente?",
+      "¿Sientes que puedes manejar tu carga laboral?",
+      "¿Qué haces para relajarte al terminar el día?"
+    ],
+    "intervencion": {
+      "emocional": "Respiración profunda 5 minutos por la mañana y tarde.",
+      "ambiente": "Pausas breves durante el día laboral.",
+      "social": "Comunicar límites de forma asertiva.",
+      "personal": "Identificar tareas que generan más carga y reorganizarlas."
+    }
+  },
+  {
+    "condicion": { "EE": "bajo", "DP": "alto", "RP": "bajo" },
+    "diagnostico": "Despersonalización social",
+    "explicacion": "Baja energía emocional pero alta desconexión interpersonal combinada con baja realización.",
+    "preguntas_post_mbi": [
+      "¿Sientes que te cuesta conectar emocionalmente con los demás?",
+      "¿Con qué frecuencia te sientes indiferente hacia tu entorno?",
+      "¿Has perdido interés en actividades que antes disfrutabas?",
+      "¿Qué te ayudaría a recuperar motivación?"
+    ],
+    "intervencion": {
+      "emocional": "Ejercitar empatía mediante reflexión diaria.",
+      "ambiente": "Involucrarse en actividades colaborativas positivas.",
+      "social": "Buscar reconexión emocional a través de amistades o grupos.",
+      "personal": "Iniciar hobbies que generen sentido y creatividad."
+    }
+  },
+  {
+    "condicion": { "EE": "medio", "DP": "bajo", "RP": "bajo" },
+    "diagnostico": "Insatisfacción profesional",
+    "explicacion": "La baja realización personal combinada con agotamiento moderado indica falta de motivación laboral.",
+    "preguntas_post_mbi": [
+      "¿Sientes que tus logros son reconocidos?",
+      "¿Sientes que avanzas hacia tus metas?",
+      "¿Qué te gustaría cambiar de tu trabajo o estudios?",
+      "¿Hay algo que te motive últimamente?"
+    ],
+    "intervencion": {
+      "emocional": "Escribir logros semanales para reforzar autoeficacia.",
+      "ambiente": "Modificar el entorno para aumentar confort (música, orden, plantas).",
+      "social": "Solicitar retroalimentación constructiva.",
+      "personal": "Crear un plan de metas pequeñas y medibles."
+    }
+  },
+  {
+    "condicion": { "EE": "bajo", "DP": "bajo", "RP": "alto" },
+    "diagnostico": "Sin señales de Burnout",
+    "explicacion": "Los tres indicadores muestran equilibrio emocional, conexión social y alta realización.",
+    "preguntas_post_mbi": [
+      "¿Qué estrategias te han funcionado para mantener tu bienestar?",
+      "¿Qué actividades te generan sensación de logro?",
+      "¿Qué podrías hacer para mantener este bienestar a largo plazo?"
+    ],
+    "intervencion": {
+      "emocional": "Practicar gratitud diaria.",
+      "ambiente": "Mantener rutinas equilibradas.",
+      "social": "Compartir buenas prácticas con otros.",
+      "personal": "Continuar con metas personales saludables."
+    }
+  }
+]
