@@ -21,6 +21,7 @@ import IconButton from "@mui/material/IconButton";
 
 import { useMBIForm } from "@/app/customHooks/useMbiForm";
 import FormPostMBI from "../PostMbiForm";
+import PostMbiFormTree from "../PostMbiFormTree";
 
 const MBIForm: React.FC = () => {
   const {
@@ -89,6 +90,12 @@ const MBIForm: React.FC = () => {
 
         <DialogContent>
           {results && (
+            <>
+            <PostMbiFormTree levels={{
+              AE:results.EE.level,
+              DP:results.DP.level,
+              RP:results.RP.level
+            }}/>
             <FormPostMBI
               motor_global={postMbi}
               valoresCondicion={{
@@ -97,6 +104,7 @@ const MBIForm: React.FC = () => {
                 RP: results.RP.level,
               }}
             />
+            </>
           )}
         </DialogContent>
       </Dialog>

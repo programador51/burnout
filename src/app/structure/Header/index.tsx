@@ -71,6 +71,8 @@ export default function Header() {
         >
           Universidad Autónoma de Nuevo León
         </Typography>
+
+        
       </Grid>
 
       {/* LOGO DERECHO */}
@@ -96,6 +98,8 @@ export default function Header() {
           />
         </Box>
       </Grid>
+
+      <Typography variant="body2">José Luis Pérez Olguín - 1731168</Typography>
     </Grid>
   );
 }

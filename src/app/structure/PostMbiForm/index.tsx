@@ -26,7 +26,7 @@ export default function FormPostMBI({ motor_global, valoresCondicion }: Props) {
     );
 
   return (
-    <Box mx="auto">
+    <Box mx="auto" mt={2}>
       {/* FORMULARIO */}
       {!resultado && (
         <Box>
@@ -57,9 +57,9 @@ export default function FormPostMBI({ motor_global, valoresCondicion }: Props) {
       {/* RESULTADO */}
       {resultado && (
         <Box>
-          <Typography variant="h5" fontWeight="bold">
+          {/* <Typography variant="h5" fontWeight="bold">
             Resultado
-          </Typography>
+          </Typography> */}
 
           <Typography variant="h6" mt={2}>
             Diagnóstico: {resultado.diagnostico}
@@ -85,6 +85,8 @@ export default function FormPostMBI({ motor_global, valoresCondicion }: Props) {
               <strong>Personal:</strong> {resultado.intervencion.personal}
             </Typography>
           </Box>
+
+          <Typography textAlign={'center'} fontStyle={'italic'} fontWeight={'bold'} variant="body2">ℹ️ Esta información ha sido guardada para analizar y mejorar los diagnosticos futuros</Typography>
         </Box>
       )}
     </Box>

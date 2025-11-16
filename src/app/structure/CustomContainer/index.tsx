@@ -5,9 +5,10 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { Container } from "@mui/material";
 
 const darkTheme = createTheme({
-  palette: {
-    mode: "dark",
-  },
+  colorSchemes:{
+    dark:true
+  }
+
 });
 
 export default function CustomContainer({ children = <></> }) {
