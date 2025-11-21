@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Typography, Box, useMediaQuery, useTheme } from "@mui/material";
+import { Typography, Box, useMediaQuery, useTheme, Stack } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import ui from "./styles.module.scss";
 
@@ -99,7 +99,14 @@ export default function Header() {
         </Box>
       </Grid>
 
-      <Typography variant="body2">José Luis Pérez Olguín - 1731168</Typography>
+      <Stack justifyContent={'center'}>
+
+      <Typography textAlign={'center'} variant="body2">José Luis Pérez Olguín 1731168</Typography>
+      <Typography textAlign={'center'} variant="body2">Enrique de Jesús Rodríguez Amaya 1879359</Typography>
+      <Typography textAlign={'center'} variant="body2">Manuel Alejandro Molina Alcazar 1996675</Typography>
+      <Typography textAlign={'center'} variant="body2">Erick Efren Beltrán Amaya 1960733</Typography>
+      <Typography textAlign={'center'} variant="body2">Diego Tristan Castro Franco 2109462</Typography>
+      </Stack>
     </Grid>
   );
 }
